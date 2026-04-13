@@ -1,0 +1,11 @@
+snapshot_label,api_name,url,http_status,extra
+2026-04-13 17:28,GG_getRoadInfoList,https://openapigits.gg.go.kr/api/rest/getRoadInfoList,200,<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ServiceResult><comMsgHeader/><msgHeader><headerCd>0</headerCd><h
+2026-04-13 17:28,GG_getRoadTrafficInfoList,https://openapigits.gg.go.kr/api/rest/getRoadTrafficInfoList,200,<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ServiceResult><comMsgHeader/><msgHeader><headerCd>0</headerCd><h
+2026-04-13 17:28,Overpass,https://overpass-api.de/api/interpreter,504,<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"     "http://www.w3.org/T
+2026-04-13 17:28,road.re_itms,https://www.road.re.kr/itms,301,verify_on=000 verify_off=301
+2026-04-13 17:28,road.re_search,https://www.road.re.kr/itms/itms_22_search.asp?mode=road&data=3&year=2024&grade=1 2 3 5,200,<?xml version='1.0' encoding='euc-kr'?><rows id='0'><row id='0'><cell><![CDATA[0]]></cell><cell><![CDATA[../elecmap/img/
+2026-04-13 17:28,VWorld_guide,https://www.vworld.kr/dev/v4dv_2ddataguide2_s002.do?svcIde=upisuq151,000,empty_reply_or_blocked_in_current_env
+2026-04-13 17:28,VWorld_req_data_key_hyphen,https://api.vworld.kr/req/data,000,key_format=hyphen
+2026-04-13 17:28,VWorld_req_data_key_plain,https://api.vworld.kr/req/data,000,key_format=plain
+2026-04-13 17:28,EX_trafficAll_https,https://data.ex.co.kr/openapi/trafficapi/trafficAll,000,timeout_in_current_env
+2026-04-13 17:28,EX_trafficAll_http,http://data.ex.co.kr/openapi/trafficapi/trafficAll,000,timeout_in_current_env

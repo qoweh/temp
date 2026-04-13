@@ -1,0 +1,13 @@
+https://openapigits.gg.go.kr/api/rest/getRoadInfoList?serviceKey=b28e7630918d60b4283e869a2259d69d2c9af215
+https://openapigits.gg.go.kr/api/rest/getRoadTrafficInfoList?serviceKey=b28e7630918d60b4283e869a2259d69d2c9af215&routeId=1050000571
+https://openapigits.gg.go.kr/api/rest/getRoadTrafficInfoList?serviceKey=b28e7630918d60b4283e869a2259d69d2c9af215&routeId=1020003121
+https://openapigits.gg.go.kr/api/rest/getRoadTrafficInfoList?serviceKey=b28e7630918d60b4283e869a2259d69d2c9af215&routeId=1070000091
+https://openapigits.gg.go.kr/api/rest/getRoadTrafficInfoList?serviceKey=b28e7630918d60b4283e869a2259d69d2c9af215&routeId=1010001001
+https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Bnode(37.38%2C126.95%2C37.41%2C127.02)%5Bhighway%5D%3Bout%20ids%201%3B
+https://www.road.re.kr/itms
+https://www.road.re.kr/itms/itms_22_search.asp?mode=road&data=3&year=2024&grade=1,2,3,5
+https://www.vworld.kr/dev/v4dv_2ddataguide2_s002.do?svcIde=upisuq151
+https://api.vworld.kr/req/data?service=data&request=GetFeature&version=2.0&key=0692495B-57C8-36E1-B719-0DEBAAC0C3F5&data=LT_C_UQ151&geomFilter=BOX%28126.95%2C37.35%2C127.05%2C37.45%29&size=1&page=1&format=json
+https://api.vworld.kr/req/data?service=data&request=GetFeature&version=2.0&key=0692495B57C836E1B7190DEBAAC0C3F5&data=LT_C_UQ151&geomFilter=BOX%28126.95%2C37.35%2C127.05%2C37.45%29&size=1&page=1&format=json
+https://data.ex.co.kr/openapi/trafficapi/trafficAll?key=3485514780&type=xml
+http://data.ex.co.kr/openapi/trafficapi/trafficAll?key=3485514780&type=xml
