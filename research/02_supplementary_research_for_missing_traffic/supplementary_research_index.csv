@@ -1,0 +1,8 @@
+group,reason,file_name,data_rows,primary_use
+supplementary_research,교통량 공백 원인/출처 추적,01_investigation_sources.csv,11,조사 소스/성공실패 이력 총괄
+supplementary_research,대체 소스(road.re) 수집 결과,02_roadre_uiwang_route_stats.csv,5,road.re 경로 통계 확인
+supplementary_research,대체 소스(road.re) 의왕 연관 spot 추출,03_roadre_uiwang_spots_selected.csv,277,후보 spot 기반 추가 매칭 가능성 검토
+supplementary_research,road.re 재시도 반영 병합 결과,04_uiwang_all_roads_with_traffic_roadre_retry.csv,2665,대체 소스 반영 후 매칭 변화 확인
+supplementary_research,추론(inferred) 보강 통합 결과,05_uiwang_all_roads_with_traffic_inferred.csv,2665,관측 공백 보강 후 최종 분석 입력 계열
+supplementary_research,경기도 route명 기준 집계,06_uiwang_gg_route_traffic_stats.csv,15,노선명 단위 통계 근거
+supplementary_research,경기도 routeNo 기준 집계,07_uiwang_gg_routeno_traffic_stats.csv,8,노선번호 단위 통계 근거

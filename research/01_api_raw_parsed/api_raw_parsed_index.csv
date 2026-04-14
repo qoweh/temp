@@ -1,0 +1,4 @@
+category,api_provider,endpoint,file_name,data_rows,description,note
+api_raw_parsed,Gyeonggi OpenAPI,getRoadInfoList,01_getRoadInfoList_parsed.csv,152,노선 메타 목록(routeId/routeNm/routeNo/roadRank),원본 API 응답 파싱 CSV
+api_raw_parsed,Gyeonggi OpenAPI,getRoadTrafficInfoList,02_getRoadTrafficInfoList_parsed.csv,24413,노선별 소통 관측(collDate/vol/spd/trvlTime/congGrade),원본 API 응답 파싱 CSV
+api_raw_parsed,Gyeonggi OpenAPI,getRoadLinkInfoList,(not archived in workspace),0,링크 단위 API 파싱 결과,스크립트는 존재하나 결과 CSV는 현재 워크스페이스에 없음
