@@ -1,0 +1,150 @@
+{
+  "comparison_scope": "Same scoring script, same non-road inputs, only roads-path changed (20260407 vs 20260414 source).",
+  "input_road_summary": {
+    "source_20260407": {
+      "rows": 2642,
+      "geometry_types": {
+        "MultiLineString": 2642
+      },
+      "columns": [
+        "way_id",
+        "highway",
+        "name",
+        "ref",
+        "lanes",
+        "maxspeed",
+        "oneway",
+        "bridge",
+        "tunnel",
+        "length_m",
+        "traffic_match",
+        "traffic_match_method",
+        "matched_route_name_norm",
+        "matched_route_no",
+        "vol_mean",
+        "vol_min",
+        "vol_max",
+        "spd_mean",
+        "trvlTime_mean",
+        "traffic_rows_used",
+        "boundary_validation_status",
+        "boundary_inside_vertex_count",
+        "boundary_outside_vertex_count",
+        "boundary_intersects",
+        "source_road",
+        "source_traffic"
+      ],
+      "traffic_match_counts": {
+        "no_match": 2375,
+        "matched": 267
+      },
+      "vol_mean_non_null": 267,
+      "vol_mean_quantiles": {
+        "0": 0.0,
+        "0.25": 0.0,
+        "0.5": 0.0,
+        "0.75": 3.338,
+        "0.9": 7.236,
+        "1": 15.786
+      }
+    },
+    "source_20260414": {
+      "rows": 18806,
+      "geometry_types": {
+        "Point": 18806
+      },
+      "columns": [
+        "fid",
+        "way_id",
+        "highway",
+        "name",
+        "traffic_match",
+        "vol_mean",
+        "segment_len_m",
+        "kde_weight"
+      ],
+      "traffic_match_counts": {
+        "no_match": 8950,
+        "inferred": 8647,
+        "matched": 1209
+      },
+      "vol_mean_non_null": 18806,
+      "vol_mean_quantiles": {
+        "0": 0.0,
+        "0.25": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "0.9": 0.0,
+        "1": 15.786
+      }
+    }
+  },
+  "weighted_score_distribution": {
+    "score_20260407": {
+      "count": 60417,
+      "min": 19.054,
+      "q10": 27.307,
+      "median": 57.213,
+      "mean": 54.605917125974486,
+      "q90": 76.65060000000001,
+      "max": 93.305,
+      "std": 17.33563846152572
+    },
+    "score_20260414": {
+      "count": 60417,
+      "min": 8.696,
+      "q10": 25.718600000000002,
+      "median": 52.392,
+      "mean": 50.26425891719218,
+      "q90": 69.1078,
+      "max": 91.434,
+      "std": 16.24657703787229
+    },
+    "score_diff_20260414_minus_20260407": {
+      "count": 60417,
+      "min": -21.74000000000001,
+      "q10": -10.870000000000005,
+      "median": 0.0,
+      "mean": -4.341658208782296,
+      "q90": 0.0,
+      "max": 21.740000000000002,
+      "std": 6.613946889085563
+    }
+  },
+  "rank_difference": {
+    "count": 60417,
+    "mean_abs_rank_diff": 3500.554314183094,
+    "median_abs_rank_diff": 3537.0,
+    "p90_abs_rank_diff": 4657.0,
+    "max_abs_rank_diff": 19056.0
+  },
+  "top_overlap_weighted": [
+    {
+      "top_n": 100,
+      "overlap_count": 12,
+      "overlap_ratio": 0.12,
+      "jaccard": 0.06382978723404255
+    },
+    {
+      "top_n": 300,
+      "overlap_count": 23,
+      "overlap_ratio": 0.07666666666666666,
+      "jaccard": 0.03986135181975736
+    },
+    {
+      "top_n": 500,
+      "overlap_count": 66,
+      "overlap_ratio": 0.132,
+      "jaccard": 0.07066381156316917
+    },
+    {
+      "top_n": 1000,
+      "overlap_count": 321,
+      "overlap_ratio": 0.321,
+      "jaccard": 0.19118522930315665
+    }
+  ],
+  "artifacts": {
+    "top_shift_csv": "intermediate/top200_grid_score_shift_weighted_20260407_vs_20260414.csv"
+  }
+}

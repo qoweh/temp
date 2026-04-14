@@ -1,0 +1,37 @@
+{
+  "analysis_date": "2026-04-14",
+  "method": "second report/gpt/build_uiwang_grid_candidates_with_roads.py",
+  "grid_size_m": 30,
+  "non_road_inputs": {
+    "cctv": "qgis-second-report/this/무인교통단속카메라.gpkg",
+    "bus_stop": "qgis-second-report/this/버스정류소.gpkg",
+    "accident": "qgis-second-report/this/사고다발지.gpkg",
+    "fatal": "qgis-second-report/this/사망교통사고.gpkg",
+    "school": "qgis-second-report/this/초중고등학교.gpkg",
+    "boundary": "qgis-second-report/second report/gpt/this_uiwang_boundary.geojson"
+  },
+  "road_inputs": {
+    "baseline_20260407": "uiwang_all_roads_with_traffic_lines_in_boundary.geojson",
+    "target_20260414": "uiwang_all_roads_with_traffic_lines_in_boundary2.geojson"
+  },
+  "outputs": {
+    "qgis_final_files": [
+      "qgis_final/uiwang_cctv_priority_equal_30m_20260414.gpkg",
+      "qgis_final/uiwang_cctv_priority_weighted_30m_20260414.gpkg",
+      "qgis_final/uiwang_cctv_priority_equal_30m_20260407_baseline.gpkg",
+      "qgis_final/uiwang_cctv_priority_weighted_30m_20260407_baseline.gpkg",
+      "qgis_final/uiwang_roads_traffic_20260414_source.geojson",
+      "qgis_final/uiwang_roads_traffic_20260407_source.geojson",
+      "qgis_final/uiwang_boundary.geojson"
+    ],
+    "csv_exports": [
+      "qgis_final/uiwang_grid_score_30m_20260414_equal.csv",
+      "qgis_final/uiwang_grid_score_30m_20260414_weighted.csv",
+      "qgis_final/uiwang_grid_score_30m_20260407_equal_baseline.csv",
+      "qgis_final/uiwang_grid_score_30m_20260407_weighted_baseline.csv"
+    ],
+    "reports": [
+      "reports/comparison_20260407_vs_20260414.json"
+    ]
+  }
+}
