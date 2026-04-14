@@ -1,0 +1,13 @@
+road_name,road_grade_label,match_found,match_candidate_count,highway,segment_count,total_length_km,vol_mean,spd_mean,trvlTime_mean,traffic_match,traffic_match_method,matched_route_name_norm,matched_route_no,traffic_rows_used,source_traffic
+봉담과천로,광역 주간선도로,yes,1,trunk,113,36.076,0.0,57.511,25.275,matched,route_name_match,봉담과천로,,131,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+수도권제1순환고속도로,고속도로,yes,1,motorway,23,16.44,15.786,64.928,44.817,matched,route_name_match,수도권제1순환고속도로,,542,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+안양판교로,1차 간선도로,yes,1,primary,37,14.087,0.0,35.356,29.722,matched,route_no_ref_match,,57,205,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+제2경인고속도로,고속도로,yes,1,motorway,26,11.876,7.236,62.317,61.545,matched,route_name_match,제2경인고속도로,,123,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+경수대로,1차 간선도로,yes,2,primary,32,10.405,3.338,40.89,32.979,matched,route_no_ref_match,,1,1558,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+덕영대로,보조 간선도로,yes,2,tertiary,13,6.715,0.0,17.5,4.5,matched,route_name_alias_match,덕영대로/오봉로,,4,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+영동고속도로,고속도로,yes,1,motorway,16,5.637,1.658,60.946,51.225,matched,route_name_match,영동고속도로,,409,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+수원문산고속도로,고속도로,yes,1,motorway,4,5.377,0.937,60.777,27.718,matched,route_no_ref_match,,17,806,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+오봉로,보조 간선도로,yes,1,tertiary,18,4.583,0.0,17.5,4.5,matched,route_name_alias_match,덕영대로/오봉로,,4,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+하오개로,보조 간선도로,yes,1,tertiary,5,2.291,0.0,35.356,29.722,matched,route_no_ref_match,,57,205,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+흥안대로,1차 간선도로,yes,2,primary,6,1.944,0.325,43.276,24.483,matched,route_no_ref_match,,47,949,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)
+고천지하차도,1차 간선도로,yes,1,primary,8,1.347,3.338,40.89,32.979,matched,route_no_ref_match,,1,1558,Gyeonggi OpenAPI getRoadTrafficInfoList + getRoadInfoList(routeNo mapping)

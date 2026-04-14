@@ -1,0 +1,28 @@
+{
+  "input_points": "/workspaces/temp/previous_data/uiwang_road_icing_heatmap_points.geojson",
+  "input_boundary": "/workspaces/temp/_external_qgis_second_report/second report/gpt/this_uiwang_boundary.geojson",
+  "base_gpkg": "/workspaces/temp/uiwang_road_icing_heatmap_points-clip-version.gpkg",
+  "rebuilt_gpkg": "/workspaces/temp/analyse/20260414/uiwang_road_icing_heatmap_points-clip-version_rebuilt_20260414.gpkg",
+  "rebuild_info": {
+    "rows_inserted": 21080,
+    "min_x": 126.9302637,
+    "min_y": 37.2773324,
+    "max_x": 127.07510015,
+    "max_y": 37.424457700000005
+  },
+  "compare": {
+    "old_row_count": 18806,
+    "new_row_count": 21080,
+    "common_feature_keys": 18806,
+    "only_in_old": 0,
+    "only_in_new": 2274,
+    "old_summary": {
+      "mean_vol": 0.508265,
+      "mean_kde_weight": 0.268001
+    },
+    "new_summary": {
+      "mean_vol": 0.514893,
+      "mean_kde_weight": 0.294495
+    }
+  }
+}
