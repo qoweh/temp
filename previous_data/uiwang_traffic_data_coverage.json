@@ -1,0 +1,33 @@
+{
+  "sources": {
+    "road_inventory": {
+      "name": "OpenStreetMap Overpass",
+      "query_basis": "Uiwang boundary bbox highway ways"
+    },
+    "traffic": {
+      "name": "Gyeonggi OpenAPI",
+      "endpoint": "https://openapigits.gg.go.kr/api/rest/getRoadTrafficInfoList",
+      "route_info_endpoint": "https://openapigits.gg.go.kr/api/rest/getRoadInfoList"
+    }
+  },
+  "counts": {
+    "osm_segment_total": 2665,
+    "osm_named_segment_total": 1070,
+    "osm_named_road_total": 362,
+    "gg_traffic_row_total": 24413,
+    "gg_name_match_row_total": 1205,
+    "gg_alias_match_row_total": 1409,
+    "gg_keyword_row_total": 287,
+    "gg_ref_match_row_total": 4794,
+    "matched_named_road_count": 17,
+    "matched_named_road_by_name_count": 4,
+    "matched_named_road_by_ref_count": 10,
+    "matched_named_road_by_alias_count": 3,
+    "unmatched_named_road_count": 345,
+    "matched_segment_count": 305,
+    "matched_segment_by_name_count": 178,
+    "matched_segment_by_ref_count": 91,
+    "matched_segment_by_alias_count": 36,
+    "unmatched_segment_count": 2360
+  }
+}
