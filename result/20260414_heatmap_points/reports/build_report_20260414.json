@@ -1,0 +1,30 @@
+{
+  "source_20260414": "uiwang_all_roads_with_traffic_lines_in_boundary2.geojson",
+  "base_20260407_clip_gpkg": "uiwang_road_icing_heatmap_points-clip-version.gpkg",
+  "output_20260414_clip_gpkg": "result/20260414_heatmap_points/qgis_final/uiwang_road_icing_heatmap_points-clip-version_20260414.gpkg",
+  "layer_name": "uiwang_road_icing_heatmap_points-clip-version",
+  "row_count": {
+    "base_20260407": 18806,
+    "new_20260414": 18806
+  },
+  "traffic_match_counts": {
+    "base_20260407": {
+      "no_match": 8950,
+      "inferred": 8647,
+      "matched": 1209
+    },
+    "new_20260414": {
+      "no_match": 8950,
+      "inferred": 8647,
+      "matched": 1209
+    }
+  },
+  "kde_weight_mean": {
+    "base_20260407": 0.2680011433053281,
+    "new_20260414": 0.2680011433053281
+  },
+  "vol_mean_mean": {
+    "base_20260407": 0.5082653408486653,
+    "new_20260414": 0.5082653408486653
+  }
+}
